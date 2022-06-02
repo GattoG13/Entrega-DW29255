@@ -1,0 +1,34 @@
+DUDAS.
+transformacion se mueve a la izq
+carousel - imgs muy grandes y no se pueden agregar mas de 3.
+         - carousel 2 del index no funciona
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+nav bar color- #82ad2a
