@@ -1,17 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
-
 * {
   padding: 0px;
   margin: 0px;
 }
 
 body {
-  background-image: url("../multimedia/images/fondo1.webp");
+  background-image: url("multimedia/images/img-index/fondodef1.svg");
   background-size: cover;
 }
 
 .navbar {
-  background-color: #82ad2a;
+  background-color: #8AAAE5;
   border: solid black 1.5px;
   border-radius: 1px;
 }
@@ -22,43 +21,35 @@ header {
   z-index: 1;
 }
 
+.nav-item {
+  transition: all 1.3s;
+  z-index: 1;
+}
 .nav-item:hover {
   margin-left: 0.7rem;
   color: black;
 }
 
-.nav-item {
-  transition: all 1.3s;
-  z-index: 1;
-}
-
-.dropdown-item:hover {
-  margin-left: 1rem;
-}
-
 .dropdown-item {
   transition: all 1.3s;
 }
-
-.nav-item1:hover {
-  margin-left: 0.3rem;
+.dropdown-item:hover {
+  margin-left: 1rem;
 }
 
 .nav-item1 {
   transition: all 2s;
 }
+.nav-item1:hover {
+  margin-left: 0.3rem;
+}
 
 .navbar-brand {
   transition: all 1.3s;
 }
-
 .navbar-brand:hover {
   transform: scale(1.2);
   padding-left: 1rem;
-}
-
-.carousel {
-  z-index: 0;
 }
 
 .introtext1 {
@@ -66,6 +57,7 @@ header {
 }
 
 .carousel {
+  z-index: 0;
   display: block;
   margin: 0 3rem;
   border: 0.1rem solid black;
@@ -96,9 +88,9 @@ header {
   width: 50%;
 }
 
-.logo-container a {
-  width: 6rem;
-  height: 6 +t2rem;
+.logo-container a img {
+  width: 8rem;
+  height: 8rem;
 }
 
 .logoinst {
@@ -119,7 +111,6 @@ header {
   font-size: 30px;
   font-style: italic;
 }
-
 .subtitleh1-villa:hover {
   transform: scale(1.4);
   transition: all 1.5s;
@@ -142,13 +133,12 @@ header {
   height: 100%;
 }
 
+.interestpoints {
+  transition: all 1.3s;
+}
 .interestpoints:hover {
   padding-left: 2rem;
   transform: scale(1rem) translateX(80px);
-}
-
-.interestpoints {
-  transition: all 1.3s;
 }
 
 h2 {
@@ -197,7 +187,6 @@ h2 {
     display: none;
   }
 }
-
 @media screen and (max-width: 600px) {
   .carousel {
     display: none;

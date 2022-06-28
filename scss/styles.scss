@@ -6,13 +6,17 @@
     margin: 0px;
 }
 
+$main-color:#8AAAE5;
+$secondary-color:white;
+
+
 body {
     background-image: url("multimedia/images/img-index/fondodef1.svg");
     background-size: cover;
 }
 
 .navbar {
-    background-color: #82ad2a;
+    background-color: $main-color;
     border: solid black 1.5px;
     border-radius: 1px;
 }
@@ -35,10 +39,11 @@ header {
 
 .dropdown-item {
     transition: all 1.3s;
-}
 
-&:hover {
+
+ &:hover {
     margin-left: 1rem;
+}
 }
 
 .nav-item1 {
@@ -65,11 +70,11 @@ header {
 }
 
 .carousel {
-	z-index: 0;
-	display: block;
-	margin: 0 3rem;
-	border: 0.1rem solid black;
-	border-radius: 0.2rem;
+    z-index: 0;
+    display: block;
+    margin: 0 3rem;
+    border: 0.1rem solid black;
+    border-radius: 0.2rem;
 }
 
 .carousel-item {
@@ -99,12 +104,12 @@ header {
 }
 
 .logo-container {
-	a {
-		img {
-			width: 8rem;
-			height: 8rem;
-		}
-	}
+    a {
+        img {
+            width: 8rem;
+            height: 8rem;
+        }
+    }
 }
 
 .logoinst {
@@ -122,12 +127,13 @@ header {
 }
 
 .subtitleh1-villa {
-	font-size: 30px;
-	font-style: italic;
-	&:hover {
-		transform: scale(1.4);
-		transition: all 1.5s;
-	}
+    font-size: 30px;
+    font-style: italic;
+
+    &:hover {
+        transform: scale(1.4);
+        transition: all 1.5s;
+    }
 }
 
 .pharagraph-villaserrana-intro {
@@ -148,11 +154,12 @@ header {
 }
 
 .interestpoints {
-	transition: all 1.3s;
-	&:hover {
-		padding-left: 2rem;
-		transform: scale(1rem) translateX(80px);
-	}
+    transition: all 1.3s;
+
+    &:hover {
+        padding-left: 2rem;
+        transform: scale(1rem) translateX(80px);
+    }
 }
 
 h2 {
