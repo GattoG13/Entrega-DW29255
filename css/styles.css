@@ -5,7 +5,7 @@
 }
 
 body {
-  background-image: url("multimedia/images/img-index/fondodef1.svg");
+  background-image: url("../multimedia/images/fondodef.jpg");
   background-size: cover;
 }
 
@@ -60,8 +60,14 @@ header {
   z-index: 0;
   display: block;
   margin: 0 3rem;
-  border: 0.1rem solid black;
-  border-radius: 0.2rem;
+}
+
+.carrusel1 {
+  padding-top: 2rem;
+}
+
+.senseih2 {
+  padding-top: 2rem;
 }
 
 .carousel-item {
@@ -180,6 +186,10 @@ h2 {
   padding-top: 2rem;
   padding-bottom: 2rem;
   width: 50%;
+}
+
+.nosotros-footer {
+  padding-top: 4rem;
 }
 
 @media screen and (max-width: 800px) {
