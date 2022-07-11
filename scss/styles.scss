@@ -12,7 +12,7 @@ $secondary-color:white;
 
 body {
     background-image: url("../multimedia/images/fondodef.jpg");
-    background-size: cover;
+    background-repeat: repeat;
 }
 
 .navbar {
@@ -126,18 +126,22 @@ header {
 .logo-redes {
     width: 100%;
     height: 100%;
+    z-index: 1;
 }
 
 .pharagraph-contact {
     font-size: 30px;
+    display: flex;
+    justify-content: center;
 }
 
 .subtitleh1-villa {
     font-size: 30px;
     font-style: italic;
+    padding-top: 1rem;
 
     &:hover {
-        transform: scale(1.4);
+        transform: translateX(0.5rem);
         transition: all 1.5s;
     }
 }
@@ -203,8 +207,28 @@ h2 {
     height: 100%;
 }
 
+.h2nos {
+    padding-top: 6rem;
+}
+
+.imagen-nosotros1 {
+    display: flex;
+}
+
+.box div {
+    display: flex;
+    width: 40%;
+    padding-top: 1rem;
+}
+
+.box1 {
+    display: flex;
+    width: 40%;
+    padding-top: 1rem;
+}
+
 .map {
-    padding-top: 2rem;
+    padding-top: 4rem;
     padding-bottom: 2rem;
     width: 50%
 }
@@ -212,6 +236,7 @@ h2 {
 .nosotros-footer {
     padding-top: 4rem;
 }
+
 
 @media screen and (max-width: 800px) {
     .map {
